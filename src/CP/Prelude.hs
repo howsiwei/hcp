@@ -1,0 +1,14 @@
+module CP.Prelude
+  ( module CP.BasicPrelude
+  , module CP.Control.Applicative
+  , module CP.Control.Exception
+  , module CP.IO
+  , module Data.Array
+  ) where
+
+import CP.BasicPrelude
+import CP.Control.Applicative
+import CP.Control.Exception
+import CP.IO
+
+import Data.Array

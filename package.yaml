@@ -1,0 +1,43 @@
+name: competitive-programming
+version: 0.1.0.0
+author: How Si Wei
+maintainer: howsiwei@rbox.me
+copyright: GPL-3
+
+default-extensions:
+- NoImplicitPrelude
+
+ghc-options:
+- -Wall
+
+dependencies:
+- base >= 4.8 && < 5
+- transformers
+- mtl
+- basic-prelude
+- witherable
+- array
+- safe-exceptions
+- parallel
+- bytestring
+- text
+- attoparsec
+- pipes
+- pipes-parse
+- pipes-attoparsec
+- pipes-group
+- pipes-bytestring
+- pipes-text
+
+library:
+  source-dirs:
+  - src
+  exposed-modules:
+  - CP.Control.Applicative
+  - CP.Control.Exception
+  - CP.Memo
+  - CP.IO
+  - CP.BasicPrelude
+  - CP.Prelude
+  - CP.Pipes.Prelude
+  - CP.Pipes.Attoparsec
