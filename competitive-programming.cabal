@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4a7010eb7eaba89984b76d4e961adc3702e63a1542390b7d7e35c5fa0fe7669f
+-- hash: e569882e78f80963bb8bd0eb8e709c73d3f7ed1cb0db99aa1dca2fa5057e7121
 
 name:           competitive-programming
 version:        0.1.0.0
@@ -23,6 +23,7 @@ library
     , base >=4.8 && <5
     , basic-prelude
     , bytestring
+    , microlens-platform
     , mtl
     , parallel
     , pipes

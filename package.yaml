@@ -13,8 +13,9 @@ ghc-options:
 dependencies:
 - base >= 4.8 && < 5
 - transformers
-- mtl
 - basic-prelude
+- microlens-platform
+- mtl
 - witherable
 - array
 - safe-exceptions
