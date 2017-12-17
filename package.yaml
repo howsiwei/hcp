@@ -34,6 +34,7 @@ library:
   source-dirs:
   - src
   exposed-modules:
+  - CP.Control.Functor
   - CP.Control.Applicative
   - CP.Control.Exception
   - CP.Memo
